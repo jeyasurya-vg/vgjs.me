@@ -1,0 +1,19 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+node_modules/
+.bundle/
+
+# Claude Code
+.claude/settings.local.json
+.claude/
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db

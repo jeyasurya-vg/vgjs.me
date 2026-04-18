@@ -1,0 +1,200 @@
+# Site settings
+title: Jeyasurya VG
+first_name: Jeyasurya
+last_name: VG
+email: jeyasurya@example.com
+description: >
+  Cybersecurity researcher specializing in adversarial AI agents,
+  OT/ICS threat intelligence, and autonomous system security.
+  MS/PhD candidate at IIT Madras.
+footer_text: >
+  Content licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+  · Code <a href="https://opensource.org/licenses/MIT">MIT</a> ·
+  <a href="https://github.com/jeyasuryavg/jeyasuryavg.github.io">Fork this site</a>
+keywords: cybersecurity, adversarial AI, OT security, ICS, threat intelligence,
+          vulnerability management, IIT Madras, Securin
+lang: en
+icon: 🔐
+
+url: https://jeyasuryavg.github.io
+baseurl: ""
+last_updated: true
+impressum_path:
+
+# Theme
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: true
+  theme_light: flat
+  theme_dark: gitdimmed
+
+# RSS
+rss_icon: true
+
+# Links
+github_username: jeyasuryavg
+linkedin_username: jeyasuryavg
+twitter_username: jeyasuryavg
+scholar_userid: ""
+orcid_id: ""
+research_gate_profile:
+medium_username:
+quora_username:
+
+# Blog
+blog_name: Research & Thoughts
+blog_nav_title: Blog
+blog_description: Writing on adversarial AI, OT/ICS security, threat intelligence,
+                  and autonomous agent research.
+permalink: /blog/:year/:slug/
+lsi: false
+future: false
+
+# Collections
+collections:
+  news:
+    defaults:
+      layout: post
+    output: false
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  publications:
+    defaults:
+      layout: publication
+    output: true
+    permalink: /publications/:path/
+
+# Navigation
+nav_pages_order: null
+nav_bar_title: "jeyasuryavg"
+
+# Display
+display_tags: true
+display_categories: true
+
+# Scholar
+scholar:
+  last_name: [VG]
+  first_name: [Jeyasurya]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters:
+    - latex
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+# Reading time
+read_time: true
+
+# Social preview
+og_image: /assets/img/og-preview.png
+
+# Analytics
+google_analytics:
+google_site_verification:
+
+# Comments (utterances)
+utterances:
+  repo: jeyasuryavg/jeyasuryavg.github.io
+  issue_term: pathname
+  label: blog-comment
+  theme: github-dark
+  crossorigin: anonymous
+
+# MathJax
+mathjax: true
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+# Sass
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-3rd-party-libraries
+  - jekyll-archives-v2
+  - jekyll-cache-bust
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: /page/:num/
+  title: :title - page :num
+  sort_field: date
+  sort_reverse: true
+
+# Archives
+jekyll-archives:
+  posts:
+    enabled: [year, tags, categories]
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+
+# Minifier (production only)
+jekyll-minifier:
+  exclude: robots.txt
+  uglifier_args:
+    harmony: true
+
+# Link attributes
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
+
+# Feature flags
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: true
+enable_project_categories: true
+enable_medium_zoom: true
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false

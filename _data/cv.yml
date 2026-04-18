@@ -1,0 +1,116 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Jeyasurya VG
+    - name: Position
+      value: Security Engineer & MS/PhD Candidate
+    - name: Organization
+      value: Securin · IIT Madras
+    - name: Location
+      value: Chennai, Tamil Nadu, India
+    - name: Research Focus
+      value: Adversarial behavior in autonomous AI agents
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MS/PhD, Computer Science (Cybersecurity)
+      institution: Indian Institute of Technology Madras, Chennai
+      year: 2023 - Present
+      description:
+        - "Thesis: Adversarial Behavior Modeling in Autonomous AI Agents"
+        - Mixed-methods research — Delphi expert study + scenario-based lab demonstrations
+        - Proxmox-based isolated lab infrastructure with cloud zones on Oracle Cloud and AWS
+        - title: Research areas
+          contents:
+            - LLM agent manipulation and prompt injection at scale
+            - Autonomous agent threat modeling
+            - OT/ICS security AI integration
+
+    - title: Bachelor of Engineering (placeholder — update with actual degree)
+      institution: Placeholder Institution
+      year: 20XX - 20XX
+      description:
+        - Update with actual undergraduate details
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Security Engineer — OT/ICS & IT Threat and Vulnerability Management
+      institution: Securin, Chennai
+      year: 20XX - Present
+      description:
+        - Enterprise-scale vulnerability program management using the Securin Centry platform
+        - OT/ICS CVE-to-MITRE ATT&CK mapping and ICS-specific vulnerability prioritization
+        - Threat intelligence workflows incorporating CISA KEV, RCE/PE, PoC availability,
+          ransomware weaponization, and asset criticality
+        - Dark web OSINT and threat hunting across IT and OT environments
+        - Application security assessments and VAPT program execution
+        - Weekly executive readouts covering ingested findings and threat advisory alerts
+        - Production LangGraph-based TVM AI agent integrating Ivanti Neurons RBVM,
+          Securin RBVM, Jira, ServiceNow, Slack, and Microsoft Teams
+
+    - title: Founder
+      institution: Booms Smart Ads, Chennai
+      year: 20XX - Present
+      description:
+        - Web services, branding, online radio, smart business cards, digital advertising
+        - Building toward SaaS products and AI-enabled cybersecurity service offerings
+
+- title: Research Output
+  type: time_table
+  contents:
+    - title: "DEF CON — ICS/OT Security Talk"
+      institution: DEF CON, Las Vegas
+      year: 20XX
+      description:
+        - Hands-on ICS/OT security presentation with live Shodan activities
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Threat & Vulnerability Management
+      items:
+        - OT/ICS TVM (CISA KEV, ICSA advisories, APT correlation)
+        - IT TVM (CVE prioritization, asset criticality, weaponization tracking)
+        - Ivanti Neurons RBVM, Securin Centry, Nessus, Acunetix
+        - MITRE ATT&CK for ICS mapping
+
+    - title: Threat Intelligence & OSINT
+      items:
+        - Dark web OSINT and monitoring
+        - Cyber Threat Intelligence (CTI) workflows
+        - Shodan API, threat hunting, IOC analysis
+
+    - title: AI & Autonomous Agent Security
+      items:
+        - LLM agent adversarial behavior research
+        - Prompt injection, jailbreaking, and agent manipulation
+        - LangGraph, LangChain, OpenRouter, AirLLM
+        - Local LLM deployment (Qwen3-30B-A3B, 70B models on constrained hardware)
+
+    - title: Application Security
+      items:
+        - VAPT (Web, API, Network)
+        - OWASP testing methodology
+        - Mutillidae, DVWA, bWapp lab environments
+        - Scapy, Burp Suite
+
+    - title: Infrastructure & DevSecOps
+      items:
+        - Proxmox VE hypervisor, multi-VM lab architecture
+        - AWS (ap-south-1), Oracle Cloud deployment
+        - Wazuh, Suricata, Elasticsearch, Splunk
+        - Docker, Python, Bash, n8n automation
+
+- title: Certifications
+  type: list
+  contents:
+    - Placeholder — add certifications here (CEH, OSCP, etc.)
+
+- title: Languages
+  type: list
+  contents:
+    - English (Professional)
+    - Tamil (Native)

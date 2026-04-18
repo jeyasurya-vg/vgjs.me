@@ -1,0 +1,42 @@
+name: Compile CV to PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_pages/cv.md'
+      - '_data/cv.yml'
+  workflow_dispatch:
+
+jobs:
+  compile-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended \
+            texlive-fonts-extra texlive-latex-extra
+
+      - name: Compile CV PDF
+        run: |
+          mkdir -p assets/pdf
+          pandoc _pages/cv.md \
+            --pdf-engine=xelatex \
+            --variable mainfont="DejaVu Sans" \
+            --variable fontsize=11pt \
+            --variable geometry=margin=1in \
+            --variable colorlinks=true \
+            --variable linkcolor=teal \
+            -o assets/pdf/cv.pdf
+
+      - name: Commit PDF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add assets/pdf/cv.pdf
+          git diff --staged --quiet || git commit -m "ci: auto-compile cv.pdf [skip ci]"
+          git push
