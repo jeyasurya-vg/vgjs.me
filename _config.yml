@@ -155,9 +155,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Third-party library mapping (required by jekyll-3rd-party-libraries)
-third_party_libraries: {}
-
 # Pagination
 pagination:
   enabled: true
