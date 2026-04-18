@@ -199,6 +199,9 @@ defaults:
     values:
       sitemap: false
 
+include:
+  - _pages
+
 # Third-party libraries (required by jekyll-3rd-party-libraries plugin)
 third_party_libraries:
   download: false
