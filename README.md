@@ -1,4 +1,4 @@
-# jeyasuryavg.github.io
+# vgjs.me
 
 Personal portfolio and research site for Jeyasurya VG — cybersecurity researcher,
 MS/PhD candidate at IIT Madras, security engineer at Securin.
@@ -6,7 +6,7 @@ MS/PhD candidate at IIT Madras, security engineer at Securin.
 Built on [al-folio](https://github.com/alshedivat/al-folio) with a custom dark
 cybersecurity theme. Design sensibility inspired by [steipete.me](https://steipete.me).
 
-**Live:** https://jeyasuryavg.github.io
+**Live:** https://jeyasurya-vg.github.io/vgjs.me/
 **License:** Content CC BY 4.0 · Code MIT
 
 ---
@@ -14,8 +14,8 @@ cybersecurity theme. Design sensibility inspired by [steipete.me](https://steipe
 ## Local development
 
 ```bash
-git clone https://github.com/jeyasuryavg/jeyasuryavg.github.io.git
-cd jeyasuryavg.github.io
+git clone https://github.com/jeyasurya-vg/vgjs.me.git
+cd vgjs.me
 bundle install
 bundle exec jekyll serve --livereload
 ```

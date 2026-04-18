@@ -10,14 +10,14 @@ description: >
 footer_text: >
   Content licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
   · Code <a href="https://opensource.org/licenses/MIT">MIT</a> ·
-  <a href="https://github.com/jeyasuryavg/jeyasuryavg.github.io">Fork this site</a>
+  <a href="https://github.com/jeyasurya-vg/vgjs.me">Fork this site</a>
 keywords: cybersecurity, adversarial AI, OT security, ICS, threat intelligence,
           vulnerability management, IIT Madras, Securin
 lang: en
 icon: 🔐
 
-url: https://jeyasuryavg.github.io
-baseurl: ""
+url: https://jeyasurya-vg.github.io
+baseurl: /vgjs.me
 last_updated: true
 impressum_path:
 

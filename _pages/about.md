@@ -34,4 +34,4 @@ Building [Booms Smart Ads](https://boomsmartads.com) — a smart advertising and
 services startup — on the side.
 
 Every post and project on this site is open:
-<a href="https://github.com/jeyasuryavg/jeyasuryavg.github.io">fork and remix freely</a>.
+<a href="https://github.com/jeyasurya-vg/vgjs.me">fork and remix freely</a>.
